@@ -5,7 +5,7 @@
 --branco: white;
 --cor-de-fundo:#00162E;
 --fundo-senha:#00244D;
---fundo-texto:#0075FF;
+--fundo-texto:#ff00dd;
 --borda:#0075FF;
 --roboto:'Roboto Mono' monospace;
 
@@ -15,3 +15,38 @@ body{
     color:var(--branco);
     background-color:#0075FF
 }
+
+
+.titulo-principal{
+font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+
+.titulo-secundrio{
+    font-size: 24px;
+} 
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.conteudo-senha{
+
+    margin-top: 80px;
+    backgroun: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+
+}
+
+#campo-senha {
+
+    background-color: var(--fundo-senha);
+    border:none;
+    color: var(--branco);
+    fount-family: var(--roboto-mono);
+    width: 70px;
+}
+
+
